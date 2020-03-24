@@ -1,6 +1,11 @@
 class Book
+<<<<<<< HEAD
   attr_accessor :author, :page_count
   attr_reader :title, :genre
+=======
+  attr_accessor :author, :page_count, :genre
+  attr_reader :title
+>>>>>>> 1c2cea5a23d4d4a7c7bc8d533194771c19da98eb
   
   GENRES = []
 
